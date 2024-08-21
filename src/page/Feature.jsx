@@ -15,15 +15,15 @@ export default function Feature() {
 
     return(
         <>
-            <div className="container absolute w-4/5 bg-white drop-shadow-lg rounded m-auto left-0 right-0 top-[102%] lg:top-[73%] z-10 my-2" id="feature">
-                <div className="flex p-2">
+            <div className="container absolute w-4/5 bg-white drop-shadow-lg rounded m-auto left-0 right-0 top-[100%] lg:top-[73%] z-10 my-2" id="feature">
+                <div className="flex flex-col lg:flex-row p-2 gap-1">
                     {images.map((item)=>(
-                        <div key={item.name} className="flex-1 lg:flex gap-2">
-                            <img src={item.src} alt={item.name} className="w-[30px] lg:w-[70px] h-[30px] lg:h-[70px]"/>
-                            <div>
-                                <h3 className="font-bold text-sm lg:text-lg">{item.title}</h3>
-                                <span className="text-gray-400 hidden lg:block">{item.desc}</span>
-                            </div>
+                        <div key={item.name} className="flex-1 lg:flex flex flex-row gap-2">
+                                <img src={item.src} alt={item.name} className="w-[30px] lg:w-[70px] h-[30px] lg:h-[70px]"/>
+                                <div>
+                                    <h3 className="font-bold text-sm lg:text-lg">{item.title}</h3>
+                                    <span className="text-gray-400 hidden lg:block">{item.desc}</span>
+                                </div>
                         </div>
                     ))}
                 </div>

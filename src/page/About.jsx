@@ -1,13 +1,19 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import AboutPict from "../assets/about-pict.jpg";
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 
 export default function About() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <>
       <div className="container h-screen flex" id="about">
-        <div className="container w-[80%] m-auto flex lg:justify-center lg:flex-row flex-col gap-2">
+        <div className="container w-[80%] m-auto flex lg:justify-center lg:flex-row flex-col gap-2" data-aos="fade-up" data-aos-duration="700">
           <div className="container h-auto flex-1 rounded">
-            <img src={AboutPict} alt="" className="rounded container" />
+            <img src={AboutPict} alt="" className="rounded container"/>
           </div>
           <div className="h-full flex-1 mt-2 lg:mt-0">
             <span className="font-bold bg-[#FFE000] p-1 rounded text-white drop-shadow lg:ms-5">About Us</span>
