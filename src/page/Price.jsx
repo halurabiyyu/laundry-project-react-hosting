@@ -8,13 +8,14 @@ export default function Price() {
 
   return (
     <>
-      <div className="container h-screen flex">
+      <div className="container h-screen flex" >
         <div
           className="w-[80%] bg-white container flex justify-center content-center m-auto mt-0"
           data-aos="fade-up"
           data-aos-duration="700"
+          id="price"
         >
-          <div className="container flex-1">
+          <div className="container flex-1" >
             <div className="container flex justify-end ">
               <h1 className="bg-[#FFE000] p-1 rounded me-5 text-white inline font-bold right-0">
                 Price List

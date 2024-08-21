@@ -4,7 +4,7 @@ export default function Navbar() {
     const navigations = [
         { name: "Home", href:"#home"},
         { name: "About Us", href:"#about"},
-        { name: "Feature", href:"#feature"},
+        { name: "Price List", href:"#price"},
     ];
 
     return (
