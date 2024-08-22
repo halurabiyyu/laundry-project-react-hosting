@@ -7,9 +7,13 @@ import Home from "./page/Home.jsx";
 import Feature from "./page/Feature.jsx";
 import About from "./page/About.jsx";
 import Price from "./page/Price.jsx";
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 
 function App() {
   const [count, setCount] = useState(0)
+
+
 
   return (
     <>

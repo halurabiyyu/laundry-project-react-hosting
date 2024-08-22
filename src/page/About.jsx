@@ -10,7 +10,7 @@ export default function About() {
 
   return (
     <>
-      <div className="container h-screen flex" id="about">
+      <div className="container h-screen flex justify-center m-auto" id="about">
         <div className="container w-[80%] m-auto flex lg:justify-center lg:flex-row flex-col gap-2" data-aos="fade-up" data-aos-duration="700">
           <div className="container h-auto flex-1 rounded">
             <img src={AboutPict} alt="" className="rounded container"/>

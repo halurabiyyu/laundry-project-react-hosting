@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import WashMachinePicts from "../assets/many-machine.jpg";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Price() {
   useEffect(() => {
@@ -8,7 +10,7 @@ export default function Price() {
 
   return (
     <>
-      <div className="container h-screen flex" >
+      <div className="container h-screen flex justify-center m-auto" >
         <div
           className="w-[80%] bg-white container flex justify-center content-center m-auto mt-0"
           data-aos="fade-up"
