@@ -1,0 +1,58 @@
+{
+    "price_list" : [
+        {
+            "name_price_list" : "Basic",
+            "price" : "7",
+            "benefit" : [
+                {
+                    "id" : "1",
+                    "value" : "Max 7Kg"
+                },
+                {
+                    "id" : "2",
+                    "value" : "Wash & Fold"
+                },
+                {
+                    "id" : "3",
+                    "value" : "Ironing"
+                }
+            ]
+        },
+        {
+            "name_price_list" : "Premium",
+            "price" : "12",
+            "benefit" : [
+                {
+                    "id" : "1",
+                    "value" : "Max 9Kg"
+                },
+                {
+                    "id" : "2",
+                    "value" : "Dry Cleaning"
+                },
+                {
+                    "id" : "3",
+                    "value" : "Delicate Fabrics"
+                }
+            ]
+        },
+        {
+            "name_price_list" : "Express",
+            "price" : "15",
+            "benefit" : [
+                {
+                    "id" : "1",
+                    "value" : "Max 9Kg"
+                },
+                {
+                    "id" : "2",
+                    "value" : "Same-Day Service"
+                },
+                {
+                    "id" : "3",
+                    "value" : "24-Hour Turnaround"
+                }
+            ]
+        }
+    ]
+}
