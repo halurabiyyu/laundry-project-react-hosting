@@ -12,19 +12,19 @@ import 'aos/dist/aos.css';
 import AOS from 'aos';
 
 function App() {
+    
   const [count, setCount] = useState(0)
-
-
+  
+  
   return (
-    <>
-
-      <Navbar></Navbar>
-      <Home></Home>
-      <Feature></Feature>
-      <About></About>
-      <Price></Price>
-    </>
-  )
-}
+      <>
+        <Navbar></Navbar>
+        <Home></Home>
+        <Feature></Feature>
+        <About></About>
+        <Price></Price>
+      </>
+    )
+};
 
 export default App
