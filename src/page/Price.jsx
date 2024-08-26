@@ -2,8 +2,6 @@ import React, { useEffect, useState } from "react";
 import WashMachinePicts from "../assets/many-machine.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
-// import BoxPriceList from "../components/BoxPriceList";
-// import Data from "../data_text/priceList.json"
 
 export default function Price() {
   useEffect(() => {
