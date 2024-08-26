@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import Box from "../components/Box";
 import WashMachinePict from "../assets/wash-machine.jpg";
+import Navbar from "./Navbar.jsx";
+
 
 export default function Home(){
     return(
         <>
+        <Navbar></Navbar>
         <div className="container relative h-screen lg:h-[75%] bg-[#B4D4FF] font-poppins m-auto" id="home">
             <div className="flex lg:flex-row flex-col-reverse ">
                 <div className="basis-1/2 flex justify-center items-center">

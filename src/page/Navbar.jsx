@@ -7,6 +7,8 @@ export default function Navbar() {
         { name: "Price List", href:"#price"},
     ];
 
+    const [openMobile, setMobile] = useState(false)
+
     return (
         <>
             <nav className="bg-white h-16 sticky top-0 font-poppins shadow-sm z-20">
