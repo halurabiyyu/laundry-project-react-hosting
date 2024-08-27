@@ -7,6 +7,7 @@ import Home from "./page/Home.jsx";
 import Feature from "./page/Feature.jsx";
 import About from "./page/About.jsx";
 import Price from "./page/Price.jsx";
+import Faq from './page/Faq.jsx';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 
@@ -21,6 +22,8 @@ function App() {
         <Feature></Feature>
         <About></About>
         <Price></Price>
+        <Faq></Faq>
+
       </>
     )
 };
