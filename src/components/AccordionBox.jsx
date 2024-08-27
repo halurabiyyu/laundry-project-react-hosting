@@ -14,7 +14,7 @@ export default function AccordionBox({ items }) {
   };
 
   return (
-    <div className="bg-white drop-shadow my-2 rounded p-3 flex flex-col justify-center text-center max-w-xl w-full mx-auto">
+    <div className="bg-white drop-shadow my-2 rounded p-3 flex flex-col justify-center text-center w-full m-auto">
       {items.map((item, index) => (
         <div className="container border-b-2 border-gray-100">
           <Disclosure
@@ -27,7 +27,7 @@ export default function AccordionBox({ items }) {
               className="py-2 text-lg w-full flex flex-row gap-4 content-center justify-between items-center"
               onClick={() => toggleAccordion(index)}
             >
-              <span className="truncate max-w-[80%]">{item.question}</span>
+              <span className="truncate max-w-[85%] sm:max-w-[90%]">{item.question}</span>
               <div>
                 <ChevronDownIcon
                   className={`size-5 fill-slate-500 transition-transform duration-300 ${
@@ -36,8 +36,10 @@ export default function AccordionBox({ items }) {
                 />
               </div>
             </DisclosureButton>
-            <DisclosurePanel className="pb-2 w-full content-center text-left">
-              {item.answer}
+            <DisclosurePanel className="pb-2 w-full content-center text-left ">
+                <span>
+                    {item.answer}
+                </span>
             </DisclosurePanel>
           </Disclosure>
         </div>

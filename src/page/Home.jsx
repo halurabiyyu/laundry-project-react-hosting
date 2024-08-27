@@ -8,8 +8,8 @@ export default function Home(){
     return(
         <>
         <Navbar></Navbar>
-        <div className="container relative h-screen lg:h-[75%] bg-[#B4D4FF] font-poppins m-auto" id="home">
-            <div className="flex lg:flex-row flex-col-reverse ">
+        <div className="container relative lg:h-[75%] bg-[#B4D4FF] font-poppins m-auto" id="home">
+            <div className="flex lg:flex-row flex-col-reverse pb-32 lg:pb-28 xl:pb-0">
                 <div className="basis-1/2 flex justify-center items-center">
                     <div className="container font-bold text-white drop-shadow-lg px-5 text-5xl lg:text-7xl">
                         <div className="container drop-shadow-lg" id="tagline">

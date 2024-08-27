@@ -24,9 +24,9 @@ export default function Price() {
 
   return (
     <>
-      <div className="container h-screen flex justify-center m-auto">
+      <div className="container max-h-full lg:h-screen 2xl:h-[85%] flex justify-center m-auto">
         <div
-          className="w-[80%] bg-white container flex flex-col-reverse gap-1 lg:flex-row justify-center content-center m-auto mt-0"
+          className="w-[80%] bg-white container flex flex-col-reverse gap-2 lg:flex-row justify-center content-center m-auto mt-0"
           data-aos="fade-up"
           data-aos-duration="700"
           id="price"
@@ -67,7 +67,7 @@ export default function Price() {
             <img
               src={WashMachinePicts}
               alt="wash-machine-pict"
-              className="rounded container"
+              className="rounded container bg-cover"
             />
           </div>
         </div>

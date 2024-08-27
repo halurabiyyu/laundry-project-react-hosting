@@ -15,7 +15,7 @@ export default function Feature() {
 
     return(
         <>
-            <div className="container absolute w-4/5 bg-white drop-shadow-lg rounded m-auto left-0 right-0 top-[100%] lg:top-[73%] z-10 my-2" id="feature">
+            <div className="container absolute w-4/5 2xl:w-2/3 bg-white drop-shadow-lg rounded m-auto left-0 right-0 top-[80%] md:top-[103%] lg:top-[55%] xl:top-[58%] 2xl:top-[75%] z-10 my-2" id="feature">
                 <div className="flex flex-col lg:flex-row p-2 gap-1">
                     {images.map((item)=>(
                         <div key={item.name} className="flex-1 lg:flex flex flex-row gap-2">
