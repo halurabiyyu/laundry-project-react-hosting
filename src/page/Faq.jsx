@@ -20,7 +20,7 @@ export default function Faq() {
 
   return (
     <>
-      <div className="lg:h-fit sm:w-[100%] lg:max-w-3xl lg:w-full flex justify-center m-auto mt-3 lg:mt-0 md:mt-20 2xl:mt-28">
+      <div className="lg:h-fit sm:w-[100%] lg:max-w-3xl lg:w-full flex justify-center m-auto mt-16 lg:mt-0 md:mt-20 2xl:mt-28">
         <div className=" flex justify-center container px-6 lg:px-0 md:px-16 flex-col">
           <h1 className="text-center bg-[#FFE000] text-white font-bold p-1 rounded">
             FAQ
