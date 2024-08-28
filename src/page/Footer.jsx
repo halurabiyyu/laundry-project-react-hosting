@@ -5,7 +5,7 @@ export default function Footer() {
     return(
         <>
             <footer>
-                <div className="bg-gray-300 mt-3 p-3 flex justify-between items-center">
+                <div className="bg-gray-300 mt-16 p-3 flex justify-between items-center">
                     <span className="text-gray-500 text-sm hover:text-gray-700">Copyright @halurabiyyu</span>
                     <div className="flex gap-2 text-gray-500 ">
                         <a href="https://www.instagram.com/haluraby/" target="_blank">
