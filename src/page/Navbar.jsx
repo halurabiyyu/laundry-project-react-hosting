@@ -7,6 +7,7 @@ export default function Navbar() {
     { name: "Home", href: "#home" },
     { name: "About Us", href: "#about" },
     { name: "Price List", href: "#price" },
+    { name: "FAQ", href: "#faq" },
   ];
 
   const [openMobile, setMobileOpen] = useState(false);
