@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import LogoWashingMachine from "../assets/washing-machine.png"
 
 export default function Navbar() {
   const navigations = [
@@ -16,6 +17,9 @@ export default function Navbar() {
     <>
       <nav className=" bg-white h-16 sticky top-0 font-poppins shadow-sm z-20">
         <ul className="hidden lg:flex h-full justify-center content-center gap-4 text-[#176B87]">
+          <a href="/">
+            <img src={LogoWashingMachine} className="w-9 content-center mt-4" alt="" />
+          </a>
           {navigations.map((item) => (
             <li key={item.name} className="content-center text-lg">
               <a
@@ -27,7 +31,10 @@ export default function Navbar() {
             </li>
           ))}
         </ul>
-        <div className="flex lg:hidden justify-end pt-5 pe-5">
+        <div className="flex lg:hidden justify-between pt-5 pe-5">
+          <a href="/">
+            <img src={LogoWashingMachine} className="w-6 mx-2 mb-3 content-center mt-4" alt="" />
+          </a>
           <button
             type="button"
             className="-m-2.5 rounded-md p-2.5 text-gray-700"
